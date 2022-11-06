@@ -1,0 +1,215 @@
+.all-trip-container{
+    padding-top:30px;
+    padding-left: 70px;
+}
+.trip-heading{
+    margin-bottom: 20px;
+}
+.all-trip-card-container{
+    display: flex;
+    max-width: 90vw;
+    overflow-x: scroll;
+}
+.trip-card-container{
+    margin-right: 20px;
+}
+.image-container{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2496585-active_media/original/8d64c46c-96ee-4509-bc94-51c61d61d742.jpg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.heart-logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.rating-container{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.star{
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.price-container{
+    display: flex;
+    align-self: center;
+}
+.currency-logo{
+    margin-top: 4px;
+    padding-left: 2px;
+}
+.amount{
+    font-weight: 700;
+}
+.image-container1{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2488061-poster/original/313d9b5c-8cc2-4dea-a3cd-300ff18f62b3.jpeg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container2{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2563542-active_media/original/f952164b-179f-4402-bbf9-c31907fa0cf7.jpg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container3{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-3010357-active_media/original/22b07cf8-cf1b-443e-9ca5-16eb21154bf1.jpg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container4{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-3134396-active_media/original/40f326f8-703f-4fe3-953f-8581882cd2af.jpg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container5{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2596268-active_media/original/0df63198-0052-4968-965e-ccc893816f1c.jpg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container6{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2493134-active_media/original/8193796a-ba32-417a-92c9-49967ed29c8b.jpeg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container7{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2493583-media_library/original/06d36032-d243-48ec-bf4c-22e18387f7f3.jpeg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-container8{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-3076506-active_media/original/f41915a1-e446-4c7e-b778-21826aee2079.jpg?im_w=1440");
+    background-size: cover;
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 450px) {
+    .trip-heading{
+        font-size: 22px;
+    }
+    .all-trip-container{
+        padding-left: 20px;
+    }
+    .trip-card-container{
+        width: 60vw;
+    }
+    .image-container{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container1{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container2{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container3{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container4{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container5{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container6{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container7{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container8{
+        width: 40vw;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 890px) {
+    .all-trip-container{
+        padding-left: 20px;
+    }
+    .trip-card-container{
+        width: 60vw;
+    }
+    .image-container{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container1{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container2{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container3{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container4{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container5{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container6{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container7{
+        width: 40vw;
+        height: 30vh;
+    }
+    .image-container8{
+        width: 40vw;
+        height: 30vh;
+    }
+}

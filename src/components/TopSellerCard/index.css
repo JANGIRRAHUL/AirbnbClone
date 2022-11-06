@@ -1,0 +1,55 @@
+.trip-heading{
+    margin-bottom: 20px;
+}
+.trip-card-container{
+    margin-right: 20px;
+}
+.image{
+    height: 40vh;
+    width: 14vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.heart-logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.rating-container{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.star{
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.price-container{
+    display: flex;
+    align-self: center;
+}
+.currency-logo{
+    margin-top: 4px;
+    padding-left: 2px;
+}
+.amount{
+    font-weight: 700;
+}
+.list-items{
+    margin-right: 20px;
+}
+
+@media (max-width : 450px) {
+    .image{
+        width: 40vw;
+        height: 30vh;
+    }
+}
+
+@media (max-width : 890px) {
+    .image{
+        width: 40vw;
+    }
+}
